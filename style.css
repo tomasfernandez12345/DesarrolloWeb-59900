@@ -16,7 +16,6 @@ body {
     margin: 0px;
 }
 
-
 #body {
     max-width: 1920px;
 }
@@ -76,7 +75,7 @@ a  {
 }
 
 /*La parte grande de la movida esta*/
-.main-wrapper {
+.main-hub-hist {
     padding-top: 160px;
     max-width: 1920px;
     margin: 0 auto;
@@ -92,6 +91,23 @@ a  {
     h1 {
         font-size: 35px;
     }
+}
+
+#main_subirhistorias {
+    
+}
+
+.learning-box {
+    width: 50%;
+}
+.image-aushunpiu {
+    width: 50%; /* Esto asegura que la imagen no ocupe mas del 50% del ancho de la pagina */
+    margin: 0 auto; /* Esto centra la imagen dentro de su contenedor */
+}
+
+.image-aushunpiu img {
+    max-width: 100%; /* La imagen no se expandira mas alla del 50% de su contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
 }
 
 /* Footer */
@@ -112,18 +128,18 @@ background-color: #797968;
      color: rgb(255, 255, 255);
      display: inline-block;
      margin: 20px 40px;
-     width: 100px; 
-    height: 100px; 
+     width: 60px; 
+     height: 60px;
+     font-size: 80px; 
      align-items: center;
-     font-size: 60px;;
-     padding: 15px;  
+     padding: 15px;
      border-radius: 10px; /*radio de esquinas*/
      transition: background-color 0.3s, transform 0.3s;
     }
     .footer_redes a:visited {
-            color: rgb(255, 255, 255);
+             color: rgb(255, 255, 255);
     }
-main
+
     .footer_redes a:hover {
         transform: scale(1.2);
         background-color: #02f7ff;
