@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "tomasfernandez12345",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasfernandez12345/DesarrolloWeb-59900.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomasfernandez12345/DesarrolloWeb-59900/issues"
+  },
+  "homepage": "https://github.com/tomasfernandez12345/DesarrolloWeb-59900#readme"
 }
