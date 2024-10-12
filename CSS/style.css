@@ -1,177 +1,171 @@
-/*# sourceMappingURL=style.css.map */
-    /*PESO DE CLASES
+
+/*PESO DE CLASES
 1-!important                !   color: blue !important
 2-ID                        #   <div id="miID">
 3-CLASS                     .   <p class="miClase">
 4-SELECTOR/ETIQUETA
 */
-/* formato de documento en general */ estoy intentando solucionar el foter en austrohungria
-body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: rgb(224, 224, 224);
-    text-decoration: none;
+/* formato de documento en general */
+estoy intentando solucionar el foter en austrohungria body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(224, 224, 224);
+  text-decoration: none;
 }
+
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #body {
-    max-width: 1920px;
+  max-width: 1920px;
 }
 
 li {
-    list-style: none;
-    display: inline-block;
+  list-style: none;
+  display: inline-block;
 }
 
-a  { 
-    text-align: center;
-    text-decoration: none;
+a {
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Header y Navbar */
 #header {
-    background-color: #b9b4b4;
-    display: flex;
-    width: 100%;
-    max-width: 1920px;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    flex-shrink: 0;
+  background-color: #b9b4b4;
+  display: flex;
+  width: 100%;
+  max-width: 1920px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  flex-shrink: 0;
 }
 
 #Logo_En_NavBar {
-    width: 50px; height: 50px;
+  width: 50px;
+  height: 50px;
 }
+
 #Tablero_NavBar {
-    width: 485px; height: 140px;
+  width: 485px;
+  height: 140px;
 }
 
 #navBar {
-    display: flex;
-    height: 140px;
-    flex: 1;
-    width: 100%;
-    max-width: 1920px;
-    height: 100%;
-    align-items: center;
-    justify-content: space-around;
-    max-width: inherit; /*hace que herede el max ancho de header*/
+  display: flex;
+  height: 140px;
+  flex: 1;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  max-width: inherit; /*hace que herede el max ancho de header*/
 }
 
 #navBar ul li a {
-    display: inline-block;
-    margin: 0 15px;
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  transition: background-color 0.3s;
 }
 
 #navBar ul li a:hover {
-    background-color: #02f7ff;
-    border-radius: 10px;
+  background-color: #02f7ff;
+  border-radius: 10px;
 }
+
 .img_logo {
-    height: 30px;
+  height: 30px;
 }
 
 /*La parte grande de la movida esta*/
 .main-hub-hist {
-    padding-top: 160px;
-    max-width: 1920px;
-    margin: 0 auto;
+  padding-top: 160px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
+
 #main {
-    padding-top: 180px;
-    display: flex;
-    justify-content: space-between; /* Asegura que los elementos se distribuyan en ambos lados */
-    text-align: left;
-    min-height: calc(100vh - 160px); 
-    padding-bottom: 100px;
-    padding: 20px;
-    h1 {
-        font-size: 35px;
-    }
+  padding-top: 180px;
+  display: flex;
+  justify-content: space-between; /* Asegura que los elementos se distribuyan en ambos lados */
+  text-align: left;
+  min-height: calc(100vh - 160px);
+  padding-bottom: 100px;
+  padding: 20px;
 }
-
-
+#main h1 {
+  font-size: 35px;
+}
 
 .learning-box {
-    width: 50%;
+  width: 50%;
 }
+
 .image-aushunpiu {
-    width: 50%; /* Esto asegura que la imagen no ocupe mas del 50% del ancho de la pagina */
-    margin: 0 auto; /* Esto centra la imagen dentro de su contenedor */
+  width: 50%; /* Esto asegura que la imagen no ocupe mas del 50% del ancho de la pagina */
+  margin: 0 auto; /* Esto centra la imagen dentro de su contenedor */
 }
 
 .image-aushunpiu img {
-    max-width: 100%; /* La imagen no se expandira mas alla del 50% de su contenedor */
-    height: auto; /* Mantiene las proporciones de la imagen */
+  max-width: 100%; /* La imagen no se expandira mas alla del 50% de su contenedor */
+  height: auto; /* Mantiene las proporciones de la imagen */
 }
 
 /* Footer */
 #footer {
-    
-color: rgb(255, 255, 255);
-display: flex;
-align-items: center;
-justify-content: space-around;
-text-decoration: none;
-width: 100%;
-max-width: 1920px;
-height: 100px;
-background-color: #797968;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 100%;
+  max-width: 1920px;
+  height: 100px;
+  background-color: #797968;
 }
-    margin-top
-.footer_redes a {
-     color: rgb(255, 255, 255);
-     display: inline-block;
-     margin: 20px 40px;
-     width: 60px; 
-     height: 60px;
-     font-size: 80px; 
-     align-items: center;
-     padding: 15px;
-     border-radius: 10px; /*radio de esquinas*/
-     transition: background-color 0.3s, transform 0.3s;
-    }
-    .footer_redes a:visited {
-             color: rgb(255, 255, 255);
-    }
 
-    .footer_redes a:hover {
-        transform: scale(1.2);
-        background-color: #02f7ff;
-        border-radius: 4px;
-    }
-    #footer ul li a {
-        display: inline-block;
-        margin: 0 15px;
-        text-decoration: none;
-        color: white;
-        width: 50px;
-        height: 50px;
-    }
-    .footer li a {
-        max-width: 40px; 
-        height: 40px;
-    }
-    /* aca hay piesas que use y me serviran en algun momento peo que no estan en uso de momento en el CSS
-es principalmente por que un amigo me dio una mano y me olvide algunas de estas funciones*/
-
-    /* Estilos para la imagen /
-
-    .image-box img {
-        max-width: 100%; /* Asegura que la imagen no quede muy grande /
-        height: auto; /* la imagen proporciónal /
-        border-radius: 8px;
-        width: 50%; /* Ocupa la mitad derecha del ancho del contenedor /
-        display: flex;
-        justify-content: center; /* Centra la imagen horizontalmente dentro de su caja /
-        align-items: center; /* Centra la imagen verticalmente dentro de su caja /
+margin-top .footer_redes a {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 20px 40px;
+  width: 60px;
+  height: 60px;
+  font-size: 80px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px; /*radio de esquinas*/
+  transition: background-color 0.3s, transform 0.3s;
 }
-*/ 
+
+.footer_redes a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.footer_redes a:hover {
+  transform: scale(1.2);
+  background-color: #02f7ff;
+  border-radius: 4px;
+}
+
+#footer ul li a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.footer li a {
+  max-width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
