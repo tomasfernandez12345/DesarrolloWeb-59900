@@ -1,65 +1,17 @@
+/* Error: expected ";".
+ *    ,
+ * 41 | @import ""
+ *    |           ^
+ *    '
+ *   sass\style.scss 41:11  root stylesheet */
 
-/*PESO DE CLASES
-1-!important                !   color: blue !important
-2-ID                        #   <div id="miID">
-3-CLASS                     .   <p class="miClase">
-4-SELECTOR/ETIQUETA
-*/
-body {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: rgb(224, 224, 224);
-  text-decoration: none;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ";".\a    \2577 \a 41 \2502  @import ""\d\a    \2502            ^\a    \2575 \a   sass\\style.scss 41:11  root stylesheet';
 }
-
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
-#body {
-  max-width: 1920px;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
-}
-
-a {
-  text-align: center;
-  text-decoration: none;
-}
-
-.img_logo {
-  height: 30px;
-}
-
-#main {
-  padding-top: 180px;
-  display: flex;
-  justify-content: space-between; /* Asegura que los elementos se distribuyan en ambos lados */
-  text-align: left;
-  min-height: calc(100vh - 160px);
-  padding-bottom: 100px;
-  padding: 20px;
-}
-#main h1 {
-  font-size: 35px;
-}
-
-.learning-box {
-  width: 50%;
-}
-
-.image-aushunpiu {
-  width: 50%; /* Esto asegura que la imagen no ocupe mas del 50% del ancho de la pagina */
-  margin: 0 auto; /* Esto centra la imagen dentro de su contenedor */
-}
-
-.image-aushunpiu img {
-  max-width: 100%; /* La imagen no se expandira mas alla del 50% de su contenedor */
-  height: auto; /* Mantiene las proporciones de la imagen */
-}
-
-/*# sourceMappingURL=style.css.map */

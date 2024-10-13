@@ -38,31 +38,17 @@ a  {
     height: 30px;
 }
 
+//Secmentos fijos para todas las paginas
 
-#main {
-    padding-top: 180px;
-    display: flex;
-    justify-content: space-between; /* Asegura que los elementos se distribuyan en ambos lados */
-    text-align: left;
-    min-height: calc(100vh - 160px); 
-    padding-bottom: 100px;
-    padding: 20px;
-    h1 {
-        font-size: 35px;
-    }
-}
+@import "formatos/header";
+@import "formatos/footer";
+@import "formatos/breackboints";
 
 
+//Paginas individuales
 
-.learning-box {
-    width: 50%;
-}
-.image-aushunpiu {
-    width: 50%; /* Esto asegura que la imagen no ocupe mas del 50% del ancho de la pagina */
-    margin: 0 auto; /* Esto centra la imagen dentro de su contenedor */
-}
-
-.image-aushunpiu img {
-    max-width: 100%; /* La imagen no se expandira mas alla del 50% de su contenedor */
-    height: auto; /* Mantiene las proporciones de la imagen */
-}
+@import "bodydelassecciones/mainbibliografia";
+@import "bodydelassecciones/maincontanosdehistoria";
+@import "bodydelassecciones/mainetiopia";
+@import "bodydelassecciones/mainhubdehistorias";
+@import "bodydelassecciones/mainindex";
