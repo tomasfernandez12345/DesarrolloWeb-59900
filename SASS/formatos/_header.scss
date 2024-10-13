@@ -1,0 +1,44 @@
+/* Header y Navbar */
+#header {
+    background-color: #b9b4b4;
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    flex-shrink: 0;
+}
+
+#Logo_En_NavBar {
+    width: 50px; height: 50px;
+}
+#Tablero_NavBar {
+    width: 485px; height: 140px;
+}
+
+#navBar {
+    display: flex;
+    height: 140px;
+    flex: 1;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    max-width: inherit; /*hace que herede el max ancho de header*/
+}
+
+#navBar ul li a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+#navBar ul li a:hover {
+    background-color: #02f7ff;
+    border-radius: 10px;
+}
